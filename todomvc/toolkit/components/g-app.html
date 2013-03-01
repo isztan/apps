@@ -6,7 +6,7 @@ license that can be found in the LICENSE file.
 <element name="g-app">
 <link rel="components" href="g-component.html">
 <template>
-  <style id="g-app">
+  <style>
     @host {
       font-family: 'Helvetica Neue', Helvetica, Arial, 'open sans', sans-serif;
       position: absolute;
@@ -31,7 +31,7 @@ license that can be found in the LICENSE file.
 </template>
 <script>
   var ensureHostStyles = function(inNode) {
-    //if (inNode.localName != 'g-app') {
+    if (inNode.localName != 'g-app') {
       var sheet = document.querySelector('style[g-app]');
       if (!sheet) {
         sheet = document.createElement('style');
@@ -49,7 +49,7 @@ license that can be found in the LICENSE file.
         styles = styles.replace(/@host/g, inNode.localName);
         sheet.appendChild(document.createTextNode(styles));
       }
-    //}
+    }
   }
   
   this.component();
