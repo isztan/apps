@@ -1,8 +1,0 @@
-{
-  "name": "todomvc-custom-elements",
-  "version": "0.0.1",
-  "main": "index.html",
-  "dependencies": {
-    "CustomElements": "toolkitchen/CustomElements"
-  }
-}

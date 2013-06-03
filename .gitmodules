@@ -1,0 +1,6 @@
+[submodule "chrome-app-todomvc/polymer-chrome-app"]
+	path = chrome-app-todomvc/polymer-chrome-app
+	url = https://github.com/Polymer/polymer-chrome-app.git
+[submodule "chrome-app-todomvc/todomvc"]
+	path = chrome-app-todomvc/todomvc
+	url = https://github.com/Polymer/todomvc.git
