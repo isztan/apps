@@ -4,3 +4,6 @@
 [submodule "chrome-app-todomvc/todomvc"]
 	path = chrome-app-todomvc/todomvc
 	url = https://github.com/Polymer/todomvc.git
+[submodule "chrome-app-playground/polymer-chrome-app"]
+	path = chrome-app-playground/polymer-chrome-app
+	url = https://github.com/Polymer/polymer-chrome-app.git

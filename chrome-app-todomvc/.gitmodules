@@ -1,0 +1,8 @@
+[submodule "projects"]
+	path = projects
+	url = https://github.com/Polymer/projects
+  branch = master
+[submodule "polymer"]
+	path = polymer
+	url = https://github.com/Polymer/polymer
+	branch = master
